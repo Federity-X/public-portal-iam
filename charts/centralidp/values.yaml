@@ -108,7 +108,7 @@ keycloak:
       # -- Non-root username.
       username: kccentral
       # -- Non-root user password.
-      password: ""
+      password: "tractusx-umbr3lla!"
       # -- Root user password.
       postgresPassword: ""
       # -- Database name.
@@ -127,7 +127,7 @@ keycloak:
     # -- Database name.
     database: ""
     # -- Password for the non-root username.
-    password: ""
+    password: "tractusx-umbr3lla!"
     # -- Secret containing the database credentials.
     existingSecret: ""
     existingSecretHostKey: ""
