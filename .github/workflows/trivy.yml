@@ -21,7 +21,7 @@ name: "Trivy"
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, develop, "**" ]
   # pull_request:
   # The branches below must be a subset of the branches above
   # branches: [ main, master ]
@@ -35,7 +35,7 @@ on:
   # Trigger manually
 
 env:
-  IMAGE_NAMESPACE: "tractusx"
+  IMAGE_NAMESPACE: "federity-x"
   IMAGE_NAME: "portal-iam"
 
 jobs:
